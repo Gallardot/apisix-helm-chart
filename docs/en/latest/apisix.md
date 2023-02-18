@@ -39,10 +39,6 @@ The current default version of APISIX installed is `2.15.0`, if you want to inst
 helm install apisix apisix/apisix --set apisix.image.tag=3.0.0-debian --create-namespace --namespace apisix
 ```
 
-:::note
-
-The latest APISIX Ingress Controller and APISIX Dashboard are not compatible with APISIX 3.x.
-
 ## Uninstall
 
 To uninstall/delete the `apisix` release:
